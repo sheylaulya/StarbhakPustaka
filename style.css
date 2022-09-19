@@ -10,9 +10,10 @@ body{
     padding: 0;
     background-color: var(--color1);
     font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
 }
 
-#index .container{
+.container{
     display: flex;
 }
 
@@ -142,4 +143,59 @@ body{
     text-decoration: none;
     color: #EEF2E6;
     font-weight: 600;
+}
+
+#index .row-1 {
+    width: 100vw;
+    height: 25vh;
+    position: relative;
+    top: 30px;
+    margin-left: 30px;
+    display: flex;
+    left: 20px;
+}
+
+#index .welcome {
+    line-height: 5px;
+}
+
+#index .welcome h3 {
+    color: #1C6758;
+    font-weight: 600;
+}
+
+#index .welcome p {
+    color: #1C6758;
+    font-weight: 400;
+}
+
+#index .searchbar {
+    position: relative;
+    left: 27vw;
+    top: 5px;
+}
+
+#index .searchbar img {
+    width: 25px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 4px;
+    opacity: 60%;
+}
+
+#index .searchbar input {
+    padding: 10px 45px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    color: #1C6758;
+}
+
+#index .akun {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 70vw;
+    opacity: 50%;
 }
