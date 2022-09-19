@@ -199,3 +199,65 @@ body{
     left: 70vw;
     opacity: 50%;
 }
+
+
+#index .row-2 {
+    width: 100vw;
+    height: 35vh;
+    position: relative;
+    top: 60px;
+    margin-left: 30px;
+    display: flex;
+}
+
+#index .total {
+    display: flex;
+}
+
+#index .total-buku {
+    width: 20vw;
+    height: 15vh;
+    background-color: #F6FBF4;
+    position: relative;
+    left: -35vw;
+    top: 8vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 25px;
+}
+
+#index .total-buku img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+#index .total-buku h3 {
+    color: #1C6758;
+    line-height: 30px;
+}
+
+#index .total-peminjam {
+    width: 20vw;
+    height: 15vh;
+    background-color: #F6FBF4;
+    position: relative;
+    left: -33vw;
+    top: 8vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 25px;
+}
+
+#index .total-peminjam img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+#index .total-peminjam h3 {
+    color: #1C6758;
+    line-height: 30px;
+}

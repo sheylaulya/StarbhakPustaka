@@ -55,7 +55,34 @@ include 'koneksi.php'
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>
+        <div class="row-2">
+            <div class="total">
+                <div class="total-buku">
+                    <img src="asset/book.png" alt="total-buku">
+                    <h3> Total buku <br>
+                        <?php
+                        $sql = "SELECT COUNT(*) FROM data_buku";
+                        $query = mysqli_query($connect, $sql);
 
+                        $total = mysqli_fetch_array($query);
+                        echo $total[0];
+                        ?>
+                    </h3>
+                </div>
+                <div class="total-peminjam">
+                    <img src="asset/librarian.png" alt="total-peminjam">
+                    <h3>Total Siswa <br>
+                        <?php
+                        $sql = "SELECT COUNT(*) FROM data_siswa";
+                        $query = mysqli_query($connect, $sql);
+
+                        $total = mysqli_fetch_array($query);
+                        echo $total[0];
+                        ?>
+                    </h3>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
