@@ -1,0 +1,145 @@
+:root{
+    --color1: #EEF2E6;
+    --color2: #F6FBF4;
+    --color3: #1C6758;
+    --color4: #3D8361;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color1);
+    font-family: 'Quicksand', sans-serif;
+}
+
+#index .container{
+    display: flex;
+}
+
+#index nav {
+    width: 20vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#index .logo {
+    width: 18vw;
+    height: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16px;
+}
+#index .logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#index .logo img{
+    width: 35px;
+    padding-right: 10px;
+}
+#index .logo h3{
+    color: #EEF2E6;
+    font-size: 20px;
+}
+#index .logo .garis {
+    width: 245px;
+    height: 1px;
+    background-color: #EEF2E6;
+    margin-top: -40px;
+    margin-left: 15px;
+    position: absolute;
+    top: 85px;
+}
+
+#index .menubar {
+    height: 30vh;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 25px;
+}
+
+#index .dashboard {
+    height: 48px;
+    width: 260px;
+    background-color: #EEF2E6;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#index .dashboard img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#index .dashboard a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1C6758;
+    font-weight: 600;
+}
+
+#index .data-buku {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#index .data-buku img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#index .data-buku a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#index .data-peminjam {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#index .data-peminjam img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#index .data-peminjam a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
