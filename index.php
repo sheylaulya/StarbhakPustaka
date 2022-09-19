@@ -38,7 +38,7 @@ include 'koneksi.php'
                 </div>
                 <div class="data-peminjam">
                     <img src="asset/reading-book.png" alt="data-peminjam">
-                    <a href="data-peminjam.php">Data Peminjam</a>
+                    <a href="data-peminjam.php">Data Siswa</a>
                 </div>
             </div>
         </nav>
@@ -83,7 +83,42 @@ include 'koneksi.php'
                 </div>
             </div>
         </div>
-    </div>
+        <div class="row-3">
+            <div class="row-3-text">
+                <h4>Buku - Buku didalam Inventoris</h4>
+                <a href="data-buku.php">selengkapnya -></a>
+            </div>
+            <div class="buku">
+                <div class="buku1">
+                    <img src="asset/buku kimia.jpg" alt="buku kima">
+                    <div class="buku1-text">
+                        <h5>Kimia Kelas XI</h5>
+                        <p>Aas Saidah, Michael Purba</p>
+                    </div>
+                </div>
+                <div class="buku2">
+                    <img src="asset/laut bercerita.jpg" alt="buku laut bercerita">
+                    <div class="buku2-text">
+                        <h5>Laut Bercerita</h5>
+                        <p>Leila S. Chudori</p>
+                    </div>
+                </div>
+                <div class="buku3">
+                    <img src="asset/sapiens.jpg" alt="buku sapiens">
+                    <div class="buku3-text">
+                        <h5>Sapiens</h5>
+                        <p>Leila S. Chudori</p>
+                    </div>
+                </div>
+                <div class="buku4">
+                    <img src="asset/buku fisika.webp" alt="buku fisika">
+                    <div class="buku3-text">
+                        <h5>Fisika SMA</h5>
+                        <p>Tri Widodo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
