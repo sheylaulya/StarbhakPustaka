@@ -423,3 +423,148 @@ body{
     font-size: 10px;
     color: #1C6758;
 }
+
+/* data_buku */
+
+#index nav {
+    width: 20vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+#databuku nav {
+    width: 18vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#databuku .logo {
+    width: 18vw;
+    height: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16px;
+}
+#databuku .logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#databuku .logo img{
+    width: 35px;
+    padding-right: 10px;
+}
+#databuku .logo h3{
+    color: #EEF2E6;
+    font-size: 20px;
+}
+#databuku .logo .garis {
+    width: 245px;
+    height: 1px;
+    background-color: #EEF2E6;
+    margin-top: -40px;
+    margin-left: 15px;
+    position: absolute;
+    top: 85px;
+}
+
+#databuku .menubar {
+    height: 30vh;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 25px;
+}
+
+#databuku .dashboard {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#databuku .dashboard img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#databuku .dashboard a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#databuku .data-buku {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    background-color: #EEF2E6;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#databuku .data-buku img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#databuku .data-buku a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1C6758;
+    font-weight: 600;
+}
+
+#databuku .data-peminjam {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#databuku .data-peminjam img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#databuku .data-peminjam a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}

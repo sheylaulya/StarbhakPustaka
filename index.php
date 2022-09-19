@@ -30,7 +30,7 @@ include 'koneksi.php'
             <div class="menubar">
                 <div class="dashboard">
                     <img src="asset/dashboard.png" alt="dashboard">
-                    <a href="index.htmk">Dashboard</a>
+                    <a href="index.php">Dashboard</a>
                 </div>
                 <div class="data-buku">
                     <img src="asset/books-stack-of-three (1).png" alt="data-buku">
@@ -86,7 +86,7 @@ include 'koneksi.php'
         <div class="row-3">
             <div class="row-3-text">
                 <h4>Buku - Buku didalam Inventoris</h4>
-                <a href="data-buku.php">selengkapnya -></a>
+                <a href="data_buku.php">selengkapnya -></a>
             </div>
             <div class="buku">
                 <div class="buku1">
