@@ -43,5 +43,22 @@ include 'koneksi.php'
                 </div>
             </div>
         </nav>
+
+        <div class="row-1">
+            <div class="row-1box">
+                <h3>Data Buku</h3>
+                <a href="tambahbuku.php">Tambah Buku</a>
+            </div>
+            <div class="row-1head">
+                <div class="searchbar">
+                    <a href="data_buku.php">
+                        <img src="asset/search.png" alt="search">
+                    </a>
+                    <input type="text" name="" placeholder="Cari Buku"></form>
+                </div>
+                <img class="akun" src="asset/account.png" alt="akun">
+            </div>
+
+        </div>
     </div>
 </body>

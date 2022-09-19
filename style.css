@@ -568,3 +568,56 @@ body{
     color: #EEF2E6;
     font-weight: 600;
 }
+
+
+#databuku .row-1head{
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    justify-content: start;
+}
+
+#databuku .row-1box{
+    height: 140px;
+    width: 75vw;
+    background-color: rgba(214,205,164, 0.5);
+    position: absolute;
+    top: 20px;
+    left: 21vw;
+    border-radius: 20px;
+    display: flex;
+}
+
+#databuku .searchbar {
+    position: absolute;
+}
+
+#databuku .searchbar img {
+    width: 25px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 4px;
+    opacity: 60%;
+}
+
+#databuku .searchbar input {
+    padding: 10px 400px;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid #1C6758;
+    color: #1C6758;
+    background-color: rgba(214,205,164, 0.1);
+}
+
+#databuku .akun {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 68vw;
+    opacity: 50%;
+    top: -5px;
+}
+#databuku .row-1box h3{
+    
+}
