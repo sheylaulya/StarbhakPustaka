@@ -619,5 +619,25 @@ body{
     top: -5px;
 }
 #databuku .row-1box h3{
-    
+    position: absolute;
+    top: 8vh;
+    left: 2vw;
+    font-size: 30px;
+    color: rgba(61, 131, 97, 0.9);
+}
+#databuku .row-1box a{
+    position: absolute;
+    top: 13vh;
+    left: 65vw;
+    font-size: 12px;
+    color: var(--color1);
+    text-decoration: none;
+    background-color: rgba(61, 131, 97, 0.9);
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+#databuku .content {
+    position: absolute;
+    top: 25vh;
+    left: 21vw;
 }
