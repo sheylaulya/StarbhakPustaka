@@ -843,3 +843,123 @@ body{
     top: 11vh;
     opacity: 60%;
 }
+#tambahbuku .id_buku{
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 20vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#tambahbuku label{
+    position: relative;
+    font-weight: 600;
+    color: #1C6758;
+}
+#tambahbuku input{
+    padding: 7px 10px;
+    width: 67vw;
+    border-radius: 10px;
+    border: none;
+}
+#tambahbuku .judul_buku{
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 32vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#tambahbuku .penulis{
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 44vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#tambahbuku .jenis_buku{
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 56vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#tambahbuku .penulis{
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 44vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+#tambahbuku .penerbit{
+    width: 34vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 68vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+#tambahbuku .penerbit input{
+    padding: 7px 10px;
+    width: 29vw;
+    border-radius: 10px;
+    border: none;
+}
+
+#tambahbuku .tanggal_terbit{
+    width: 36vw;
+    height: 70px;
+    background-color: rgba(214,205,164,0.5);
+    position: absolute;
+    top: 68vh;
+    left: 58vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+#tambahbuku .tanggal_terbit input{
+    padding: 7px 10px;
+    width: 29vw;
+    border-radius: 10px;
+    border: none;
+}
+#tambahbuku .enter{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(214,205,164);
+    position: absolute;
+    top: 83vh;
+    left: 87vw;
+    color: var(--color4);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
