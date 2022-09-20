@@ -641,3 +641,61 @@ body{
     top: 25vh;
     left: 21vw;
 }
+
+#databuku table{
+    border-collapse: collapse ;
+    width: 120%;
+    text-align: center;
+    box-sizing: border-box;
+    flex-grow: 0;
+}
+#databuku .opsi a:first-child{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(asset/edit.png);
+    background-size: 30px;
+    margin: 5px;
+}
+#databuku .opsi a:nth-child(2){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(asset/hapus.png);
+    background-size: 30px;
+    margin: 5px;
+}
+#databuku .opsi {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+#databuku th{
+    background-color: var(--color1);
+    color: var(--color3);
+    font-weight: 700;
+    padding: 5px;
+}
+#databuku td{
+    font-weight: 400;
+    padding: 5px;
+}
+#databuku tr:nth-child(odd){
+    background-color: var(--color1);
+    color: var(--color3);
+    flex-grow: 0;
+
+}
+
+#databuku table tr:nth-child(even) {
+    background-color: rgba(214,205,164,0.5);
+    color: rgb(0, 0, 0, 0.6)
+}
+ 
+#databuku table tr:hover {
+    background-color: rgba(214,205,164,0.5);
+    color: rgb(0, 0, 0, 0.6)
+}
+#databuku th:nth-child(2){
+    width: 230px;
+}

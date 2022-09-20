@@ -58,7 +58,42 @@ include 'koneksi.php'
                 </div>
                 <img class="akun" src="asset/account.png" alt="akun">
             </div>
-            
+            <div class="content">
+                <table>
+                    <tr>
+                        <th>Id Buku</th>
+                        <th>Judul Buku</th>
+                        <th>Penulis</th>
+                        <th>Jenis Buku</th>
+                        <th>Penerbit</th>
+                        <th>Tahun Terbit</th>
+                        <th>Opsi</th>
+                    </tr>
+                        <?php
+                    $sql = ("SELECT * FROM data_buku");
+                    $query = mysqli_query($connect, $sql);
+                    while($data = mysqli_fetch_array($query)){
+                        echo"
+                        <tr>
+                            <td>$data[id_buku]</td>
+                            <td>$data[judul_buku]</td>
+                            <td>$data[penulis]</td>
+                            <td>$data[jenis_buku]</td>
+                            <td>$data[penerbit]</td>
+                            <td>$data[tahun_terbit]</td>
+                            <td>
+                            <div class='opsi'>
+                            <a href='formedit.php?id_buku=".$data ['id_buku']."'></a>
+                            <a href='hapus.php?id_buku=".$data ['id_buku']."'></a>
+                            </td>
+                         </tr>
+                      ";
+            } 
+                    ?>
+                    </td>
+                </table>
+            </div>
+
         </div>
     </div>
 </body>
