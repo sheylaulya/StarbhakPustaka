@@ -54,8 +54,48 @@ include 'koneksi.php'
                 <img class="akun" src="asset/account.png" alt="akun">
                 <div class="row-1-text">
                     <h3>Data Siswa</h3>
-                    <a href="tambah_buku.html">Tambah Buku</a>
+                    <a href="tambah_siswa.html">Tambah Siswa</a>
                 </div>
             </div>
         </div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <th>Id Siswa</th>
+                        <th>Nama Siswa</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Alamat</th>
+                        <th>jenis_kelamin</th>
+                        <th>Agama</th>
+                        <th>Kelas</th>
+                        <th>Jurusan</th>
+                        <th>Opsi</th>
+                    </tr>
+                        <?php
+                    $sql = ("SELECT * FROM data_siswa");
+                    $query = mysqli_query($connect, $sql);
+                    while($data = mysqli_fetch_array($query)){
+                        echo"
+                        <tr>
+                            <td>$data[id_siswa]</td>
+                            <td>$data[nama_siswa]</td>
+                            <td>$data[tanggal_lahir]</td>
+                            <td>$data[alamat]</td>
+                            <td>$data[jenis_kelamin]</td>
+                            <td>$data[agama]</td>
+                            <td>$data[kelas]</td>
+                            <td>$data[jurusan]</td>
+                            <td>
+                            <div class='opsi'>
+                            <a href='formeditsiswa.php?id_siswa=".$data ['id_siswa']."'></a>
+                            <a href='hapus.php?id_siswa=".$data ['id_siswa']."'></a>
+                            </td>
+                         </tr>
+                      ";
+            } 
+                    ?>
+                    </td>
+                </table>
+        </div>
+    </div>
 </body>

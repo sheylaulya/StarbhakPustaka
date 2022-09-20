@@ -83,7 +83,7 @@ include 'koneksi.php'
                             <td>$data[tanggal_terbit]</td>
                             <td>
                             <div class='opsi'>
-                            <a href='formedit.php?id_buku=".$data ['id_buku']."'></a>
+                            <a href='formeditbuku.php?id_buku=".$data ['id_buku']."'></a>
                             <a href='hapus.php?id_buku=".$data ['id_buku']."'></a>
                             </td>
                          </tr>
