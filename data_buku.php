@@ -47,7 +47,7 @@ include 'koneksi.php'
         <div class="row-1">
             <div class="row-1box">
                 <h3>Data Buku</h3>
-                <a href="tambahbuku.php">Tambah Buku</a>
+                <a href="tambah_buku.html">Tambah Buku</a>
             </div>
             <div class="row-1head">
                 <div class="searchbar">

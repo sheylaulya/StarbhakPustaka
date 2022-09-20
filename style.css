@@ -426,21 +426,6 @@ body{
 
 /* data_buku */
 
-#index nav {
-    width: 20vw;
-    height: 95vh;
-    background-color: var(--color3);
-    position: relative;
-    top: 20px;
-    left: 20px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-
 #databuku nav {
     width: 18vw;
     height: 95vh;
@@ -699,3 +684,135 @@ body{
 #databuku th:nth-child(2){
     width: 230px;
 }
+
+/* tambahbuku */
+
+
+#tambahbuku nav {
+    width: 18vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#tambahbuku .logo {
+    width: 18vw;
+    height: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16px;
+}
+#tambahbuku .logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tambahbuku .logo img{
+    width: 35px;
+    padding-right: 10px;
+}
+#tambahbuku .logo h3{
+    color: #EEF2E6;
+    font-size: 20px;
+}
+#tambahbuku .logo .garis {
+    width: 245px;
+    height: 1px;
+    background-color: #EEF2E6;
+    margin-top: -40px;
+    margin-left: 15px;
+    position: absolute;
+    top: 85px;
+}
+
+#tambahbuku .menubar {
+    height: 30vh;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 25px;
+}
+
+#tambahbuku .dashboard {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#tambahbuku .dashboard img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#tambahbuku .dashboard a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#tambahbuku .data-buku {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    background-color: #EEF2E6;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#tambahbuku .data-buku img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#tambahbuku .data-buku a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1C6758;
+    font-weight: 600;
+}
+
+#tambahbuku .data-peminjam {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#tambahbuku .data-peminjam img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#tambahbuku .data-peminjam a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
