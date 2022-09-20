@@ -964,3 +964,171 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
 }
+
+/* datasiswa */
+
+#datasiswa nav {
+    width: 18vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#datasiswa .logo {
+    width: 18vw;
+    height: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16px;
+}
+#datasiswa .logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#datasiswa .logo img{
+    width: 35px;
+    padding-right: 10px;
+}
+#datasiswa .logo h3{
+    color: #EEF2E6;
+    font-size: 20px;
+}
+#datasiswa .logo .garis {
+    width: 245px;
+    height: 1px;
+    background-color: #EEF2E6;
+    margin-top: -40px;
+    margin-left: 15px;
+    position: absolute;
+    top: 85px;
+}
+
+#datasiswa .menubar {
+    height: 30vh;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 25px;
+}
+
+#datasiswa .dashboard {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#datasiswa .dashboard img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#datasiswa .dashboard a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#datasiswa .data-buku {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#datasiswa .data-buku img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#datasiswa .data-buku a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 600;
+}
+
+#datasiswa .data-peminjam {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    background-color: #EEF2E6;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#datasiswa .data-peminjam img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#datasiswa .data-peminjam a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color3);
+    font-weight: 600;
+}
+
+
+#datasiswa .row-1head{
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    justify-content: start;
+}
+
+#datasiswa .searchbar {
+    position: absolute;
+}
+
+#datasiswa .searchbar img {
+    width: 25px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 4px;
+    opacity: 60%;
+}
+
+#datasiswa .searchbar input {
+    padding: 10px 400px;
+    position: absolute;
+    border-radius: 20px;
+    border: none;
+    color: #1C6758;
+    background-color: rgba(214,205,164,0.5);
+}
+#datasiswa  .akun {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 68vw;
+    opacity: 50%;
+    top: -5px;
+}

@@ -39,7 +39,7 @@ include 'koneksi.php'
                 </div>
                 <div class="data-peminjam">
                     <img src="asset/reading-book.png" alt="data-peminjam">
-                    <a href="data-peminjam.php">Data Siswa</a>
+                    <a href="data_siswa.php">Data Siswa</a>
                 </div>
             </div>
         </nav>
@@ -66,7 +66,7 @@ include 'koneksi.php'
                         <th>Penulis</th>
                         <th>Jenis Buku</th>
                         <th>Penerbit</th>
-                        <th>Tahun Terbit</th>
+                        <th>Tanggal Terbit</th>
                         <th>Opsi</th>
                     </tr>
                         <?php
@@ -80,7 +80,7 @@ include 'koneksi.php'
                             <td>$data[penulis]</td>
                             <td>$data[jenis_buku]</td>
                             <td>$data[penerbit]</td>
-                            <td>$data[tahun_terbit]</td>
+                            <td>$data[tanggal_terbit]</td>
                             <td>
                             <div class='opsi'>
                             <a href='formedit.php?id_buku=".$data ['id_buku']."'></a>
