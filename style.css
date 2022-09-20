@@ -816,3 +816,30 @@ body{
     font-weight: 600;
 }
 
+#tambahbuku .judul {
+    width: 60vw;
+    height: 100px;
+    position: absolute;
+    top: 5vh;
+    left: 22vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+#tambahbuku .judul img{
+    width: 50px;
+}
+#tambahbuku .judul h2{
+    color: #1C6758;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+#tambahbuku .row-1 .akun{
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+    left:90vw;
+    top: 11vh;
+    opacity: 60%;
+}
