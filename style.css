@@ -1,11 +1,11 @@
-:root{
+:root {
     --color1: #EEF2E6;
     --color2: #F6FBF4;
     --color3: #1C6758;
     --color4: #3D8361;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: var(--color1);
@@ -13,7 +13,7 @@ body{
     box-sizing: border-box;
 }
 
-.container{
+.container {
     display: flex;
 }
 
@@ -41,19 +41,23 @@ body{
     position: relative;
     top: 16px;
 }
+
 #index .logo-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#index .logo img{
+
+#index .logo img {
     width: 35px;
     padding-right: 10px;
 }
-#index .logo h3{
+
+#index .logo h3 {
     color: #EEF2E6;
     font-size: 20px;
 }
+
 #index .logo .garis {
     width: 245px;
     height: 1px;
@@ -263,25 +267,29 @@ body{
 }
 
 
-#index .row-3{
-    height:25vh;
+#index .row-3 {
+    height: 25vh;
     width: 40vw;
     position: absolute;
     top: 32vh;
     left: 22vw;
 }
-#index .buku{
+
+#index .buku {
     display: flex;
     align-items: center;
     gap: 25px;
 }
-#index .row-3-text{
+
+#index .row-3-text {
     display: flex;
 }
-#index .row-3 h4{
+
+#index .row-3 h4 {
     color: #1C6758;
 }
-#index .row-3 a{
+
+#index .row-3 a {
     font-size: 10px;
     position: absolute;
     top: 6vh;
@@ -290,10 +298,11 @@ body{
     color: rgba(61, 131, 97, 0.9);
     text-decoration: none;
 }
-#index .buku1{
+
+#index .buku1 {
     width: 10vw;
     height: 15vw;
-    border: 1px solid  rgba(61, 131, 97, 0.3) ;
+    border: 1px solid rgba(61, 131, 97, 0.3);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -302,20 +311,24 @@ body{
     padding-top: 10px;
     box-sizing: border-box;
 }
-#index .buku1 img{
+
+#index .buku1 img {
     width: 110px;
 }
+
 #index .buku1-text {
     width: 10vw;
     height: 5vh;
     line-height: 5px;
 }
-#index .buku1-text h5{
+
+#index .buku1-text h5 {
     margin-top: 0px;
     margin-left: 17px;
     color: #1C6758;
 }
-#index .buku1-text p{
+
+#index .buku1-text p {
     margin-top: -10px;
     margin-left: 17px;
     font-size: 10px;
@@ -323,10 +336,10 @@ body{
 }
 
 
-#index .buku2{
+#index .buku2 {
     width: 10vw;
     height: 15vw;
-    border: 1px solid  rgba(61, 131, 97, 0.3) ;
+    border: 1px solid rgba(61, 131, 97, 0.3);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -335,21 +348,25 @@ body{
     padding-top: 10px;
     box-sizing: border-box;
 }
-#index .buku2 img{
+
+#index .buku2 img {
     width: 105px;
 
 }
+
 #index .buku2-text {
     width: 10vw;
     height: 5vh;
     line-height: 5px;
 }
-#index .buku2-text h5{
+
+#index .buku2-text h5 {
     margin-top: 0px;
     margin-left: 17px;
     color: #1C6758;
 }
-#index .buku2-text p{
+
+#index .buku2-text p {
     margin-top: -10px;
     margin-left: 17px;
     font-size: 10px;
@@ -358,10 +375,10 @@ body{
 
 
 
-#index .buku3{
+#index .buku3 {
     width: 10vw;
     height: 15vw;
-    border: 1px solid  rgba(61, 131, 97, 0.3) ;
+    border: 1px solid rgba(61, 131, 97, 0.3);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -370,31 +387,35 @@ body{
     padding-top: 10px;
     box-sizing: border-box;
 }
-#index .buku3 img{
+
+#index .buku3 img {
     width: 105px;
 
 }
+
 #index .buku3-text {
     width: 10vw;
     height: 5vh;
     line-height: 5px;
 }
-#index .buku3-text h5{
+
+#index .buku3-text h5 {
     margin-top: 0px;
     margin-left: 17px;
     color: #1C6758;
 }
-#index .buku3-text p{
+
+#index .buku3-text p {
     margin-top: -10px;
     margin-left: 17px;
     font-size: 10px;
     color: #1C6758;
 }
 
-#index .buku4{
+#index .buku4 {
     width: 10vw;
     height: 15vw;
-    border: 1px solid  rgba(61, 131, 97, 0.3) ;
+    border: 1px solid rgba(61, 131, 97, 0.3);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -403,21 +424,25 @@ body{
     padding-top: 10px;
     box-sizing: border-box;
 }
-#index .buku4 img{
+
+#index .buku4 img {
     width: 105px;
 
 }
+
 #index .buku4-text {
     width: 10vw;
     height: 5vh;
     line-height: 5px;
 }
-#index .buku4-text h5{
+
+#index .buku4-text h5 {
     margin-top: 0px;
     margin-left: 17px;
     color: #1C6758;
 }
-#index .buku4-text p{
+
+#index .buku4-text p {
     margin-top: -10px;
     margin-left: 17px;
     font-size: 10px;
@@ -450,19 +475,23 @@ body{
     position: relative;
     top: 16px;
 }
+
 #databuku .logo-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#databuku .logo img{
+
+#databuku .logo img {
     width: 35px;
     padding-right: 10px;
 }
-#databuku .logo h3{
+
+#databuku .logo h3 {
     color: #EEF2E6;
     font-size: 20px;
 }
+
 #databuku .logo .garis {
     width: 245px;
     height: 1px;
@@ -555,17 +584,17 @@ body{
 }
 
 
-#databuku .row-1head{
+#databuku .row-1head {
     position: relative;
     top: 5vh;
     left: 5vw;
     justify-content: start;
 }
 
-#databuku .row-1box{
+#databuku .row-1box {
     height: 140px;
     width: 75vw;
-    background-color: rgba(214,205,164, 0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 20px;
     left: 21vw;
@@ -592,7 +621,7 @@ body{
     border-radius: 20px;
     border: 1px solid #1C6758;
     color: #1C6758;
-    background-color: rgba(214,205,164, 0.1);
+    background-color: rgba(214, 205, 164, 0.1);
 }
 
 #databuku .akun {
@@ -603,14 +632,16 @@ body{
     opacity: 50%;
     top: -5px;
 }
-#databuku .row-1box h3{
+
+#databuku .row-1box h3 {
     position: absolute;
     top: 8vh;
     left: 2vw;
     font-size: 30px;
     color: rgba(61, 131, 97, 0.9);
 }
-#databuku .row-1box a{
+
+#databuku .row-1box a {
     position: absolute;
     top: 13vh;
     left: 65vw;
@@ -621,20 +652,22 @@ body{
     padding: 8px 15px;
     border-radius: 10px;
 }
+
 #databuku .content {
     position: absolute;
     top: 25vh;
     left: 21vw;
 }
 
-#databuku table{
-    border-collapse: collapse ;
+#databuku table {
+    border-collapse: collapse;
     width: 120%;
     text-align: center;
     box-sizing: border-box;
     flex-grow: 0;
 }
-#databuku .opsi a:first-child{
+
+#databuku .opsi a:first-child {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -642,7 +675,8 @@ body{
     background-size: 30px;
     margin: 5px;
 }
-#databuku .opsi a:nth-child(2){
+
+#databuku .opsi a:nth-child(2) {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -650,22 +684,26 @@ body{
     background-size: 30px;
     margin: 5px;
 }
+
 #databuku .opsi {
     display: flex;
     justify-content: center;
     gap: 3px;
 }
-#databuku th{
+
+#databuku th {
     background-color: var(--color1);
     color: var(--color3);
     font-weight: 700;
     padding: 5px;
 }
-#databuku td{
+
+#databuku td {
     font-weight: 400;
     padding: 5px;
 }
-#databuku tr:nth-child(odd){
+
+#databuku tr:nth-child(odd) {
     background-color: var(--color1);
     color: var(--color3);
     flex-grow: 0;
@@ -673,15 +711,16 @@ body{
 }
 
 #databuku table tr:nth-child(even) {
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     color: rgb(0, 0, 0, 0.6)
 }
- 
+
 #databuku table tr:hover {
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     color: rgb(0, 0, 0, 0.6)
 }
-#databuku th:nth-child(2){
+
+#databuku th:nth-child(2) {
     width: 230px;
 }
 
@@ -712,19 +751,23 @@ body{
     position: relative;
     top: 16px;
 }
+
 #tambahbuku .logo-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#tambahbuku .logo img{
+
+#tambahbuku .logo img {
     width: 35px;
     padding-right: 10px;
 }
-#tambahbuku .logo h3{
+
+#tambahbuku .logo h3 {
     color: #EEF2E6;
     font-size: 20px;
 }
+
 #tambahbuku .logo .garis {
     width: 245px;
     height: 1px;
@@ -827,26 +870,30 @@ body{
     align-items: center;
     gap: 15px;
 }
-#tambahbuku .judul img{
+
+#tambahbuku .judul img {
     width: 50px;
 }
-#tambahbuku .judul h2{
+
+#tambahbuku .judul h2 {
     color: #1C6758;
     word-spacing: 5px;
     letter-spacing: 2px;
 }
-#tambahbuku .row-1 .akun{
+
+#tambahbuku .row-1 .akun {
     width: 40px;
     position: absolute;
     z-index: 1;
-    left:90vw;
+    left: 90vw;
     top: 11vh;
     opacity: 60%;
 }
-#tambahbuku .id_buku{
+
+#tambahbuku .id_buku {
     width: 72vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 20vh;
     left: 22vw;
@@ -855,21 +902,24 @@ body{
     align-items: center;
     border-radius: 20px;
 }
-#tambahbuku label{
+
+#tambahbuku label {
     position: relative;
     font-weight: 600;
     color: #1C6758;
 }
-#tambahbuku input{
+
+#tambahbuku input {
     padding: 7px 10px;
     width: 67vw;
     border-radius: 10px;
     border: none;
 }
-#tambahbuku .judul_buku{
+
+#tambahbuku .judul_buku {
     width: 72vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 32vh;
     left: 22vw;
@@ -878,10 +928,11 @@ body{
     align-items: center;
     border-radius: 20px;
 }
-#tambahbuku .penulis{
+
+#tambahbuku .penulis {
     width: 72vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 44vh;
     left: 22vw;
@@ -890,10 +941,11 @@ body{
     align-items: center;
     border-radius: 20px;
 }
-#tambahbuku .jenis_buku{
+
+#tambahbuku .jenis_buku {
     width: 72vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 56vh;
     left: 22vw;
@@ -902,10 +954,11 @@ body{
     align-items: center;
     border-radius: 20px;
 }
-#tambahbuku .penulis{
+
+#tambahbuku .penulis {
     width: 72vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 44vh;
     left: 22vw;
@@ -915,10 +968,10 @@ body{
     border-radius: 20px
 }
 
-#tambahbuku .penerbit{
+#tambahbuku .penerbit {
     width: 34vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 68vh;
     left: 22vw;
@@ -927,17 +980,18 @@ body{
     align-items: center;
     border-radius: 20px
 }
-#tambahbuku .penerbit input{
+
+#tambahbuku .penerbit input {
     padding: 7px 10px;
     width: 29vw;
     border-radius: 10px;
     border: none;
 }
 
-#tambahbuku .tanggal_terbit{
+#tambahbuku .tanggal_terbit {
     width: 36vw;
     height: 70px;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 68vh;
     left: 58vw;
@@ -946,16 +1000,18 @@ body{
     align-items: center;
     border-radius: 20px
 }
-#tambahbuku .tanggal_terbit input{
+
+#tambahbuku .tanggal_terbit input {
     padding: 7px 10px;
     width: 29vw;
     border-radius: 10px;
     border: none;
 }
-#tambahbuku .enter{
+
+#tambahbuku .enter {
     width: 100px;
     height: 40px;
-    background-color: rgb(214,205,164);
+    background-color: rgb(214, 205, 164);
     position: absolute;
     top: 83vh;
     left: 87vw;
@@ -991,19 +1047,23 @@ body{
     position: relative;
     top: 16px;
 }
+
 #datasiswa .logo-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#datasiswa .logo img{
+
+#datasiswa .logo img {
     width: 35px;
     padding-right: 10px;
 }
-#datasiswa .logo h3{
+
+#datasiswa .logo h3 {
     color: #EEF2E6;
     font-size: 20px;
 }
+
 #datasiswa .logo .garis {
     width: 245px;
     height: 1px;
@@ -1096,7 +1156,7 @@ body{
 }
 
 
-#datasiswa .row-1head{
+#datasiswa .row-1head {
     position: relative;
     top: 5vh;
     left: 5vw;
@@ -1122,13 +1182,43 @@ body{
     border-radius: 20px;
     border: none;
     color: #1C6758;
-    background-color: rgba(214,205,164,0.5);
+    background-color: rgba(214, 205, 164, 0.5);
 }
-#datasiswa  .akun {
+
+#datasiswa .akun {
     width: 45px;
     height: 45px;
     position: absolute;
     left: 68vw;
     opacity: 50%;
     top: -5px;
+}
+
+#datasiswa .row-1-text {
+    height: 140px;
+    width: 75vw;
+    position: absolute;
+    top: -10px;
+    border-radius: 20px;
+    display: flex;
+}
+#datasiswa .row-1-text h3 {
+    position: absolute;
+    top: 8vh;
+    left: 2vw;
+    font-size: 30px;
+    color: rgba(61, 131, 97, 1);
+    letter-spacing: 2px;
+}
+
+#datasiswa .row-1-text a {
+    position: absolute;
+    top: 13vh;
+    left: 65vw;
+    font-size: 12px;
+    color: var(--color1);
+    text-decoration: none;
+    background-color: rgba(61, 131, 97, 0.9);
+    padding: 8px 15px;
+    border-radius: 10px;
 }

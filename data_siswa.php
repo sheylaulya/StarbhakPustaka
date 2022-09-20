@@ -52,6 +52,10 @@ include 'koneksi.php'
                     <input type="text" name="" placeholder="Cari Buku"></form>
                 </div>
                 <img class="akun" src="asset/account.png" alt="akun">
+                <div class="row-1-text">
+                    <h3>Data Siswa</h3>
+                    <a href="tambah_buku.html">Tambah Buku</a>
+                </div>
             </div>
         </div>
 </body>
