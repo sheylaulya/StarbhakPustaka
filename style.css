@@ -1291,3 +1291,300 @@ body {
     background-color: rgba(214, 205, 164, 0.5);
     color: rgb(0, 0, 0, 0.6)
 }
+
+#datasiswa th:nth-child(4){
+    flex-basis: 200px;
+}
+/* tambah siswa */
+
+
+#tambahsiswa nav {
+    width: 18vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#tambahsiswa .logo {
+    width: 18vw;
+    height: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16px;
+}
+
+#tambahsiswa .logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tambahsiswa .logo img {
+    width: 35px;
+    padding-right: 10px;
+}
+
+#tambahsiswa .logo h3 {
+    color: #EEF2E6;
+    font-size: 20px;
+}
+
+#tambahsiswa .logo .garis {
+    width: 245px;
+    height: 1px;
+    background-color: #EEF2E6;
+    margin-top: -40px;
+    margin-left: 15px;
+    position: absolute;
+    top: 85px;
+}
+
+#tambahsiswa .menubar {
+    height: 30vh;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 25px;
+}
+
+#tambahsiswa .dashboard {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#tambahsiswa .dashboard img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#tambahsiswa .dashboard a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#tambahsiswa .data-buku {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#tambahsiswa .data-buku img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#tambahsiswa .data-buku a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color1);
+    font-weight: 600;
+}
+
+#tambahsiswa .data-peminjam {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    background-color: #EEF2E6;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#tambahsiswa .data-peminjam img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#tambahsiswa .data-peminjam a {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color3);
+    font-weight: 600;
+}
+
+
+#tambahsiswa .judul {
+    width: 60vw;
+    height: 100px;
+    position: absolute;
+    top: 5vh;
+    left: 22vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+#tambahsiswa .judul img {
+    width: 50px;
+}
+
+#tambahsiswa .judul h2 {
+    color: #1C6758;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+#tambahsiswa .row-1 .akun {
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+    left: 90vw;
+    top: 11vh;
+    opacity: 60%;
+}
+
+#tambahsiswa label {
+    position: relative;
+    font-weight: 600;
+    color: #1C6758;
+}
+
+#tambahsiswa input {
+    padding: 7px 10px;
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+    
+}
+#tambahsiswa .id_siswa {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 20vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#tambahsiswa .nama_siswa{
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 20vh;
+    left: 57vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#tambahsiswa .tanggal_lahir {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 34vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#tambahsiswa .alamat {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 34vh;
+    left: 57vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#tambahsiswa .agama {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 48vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+#tambahsiswa .jenis_kelamin {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 48vh;
+    left: 57vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+#tambahsiswa .kelas {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 62vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+#tambahsiswa .jurusan {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 63vh;
+    left: 57vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+#tambahsiswa .enter {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(214, 205, 164);
+    position: absolute;
+    top: 83vh;
+    left: 83vw;
+    color: var(--color4);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+

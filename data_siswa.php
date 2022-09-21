@@ -46,7 +46,7 @@ include 'koneksi.php'
         <div class="row-1">
             <div class="row-1head">
                 <div class="searchbar">
-                    <a href="data_buku.php">
+                    <a href="data_siswa.php">
                         <img src="asset/search.png" alt="search">
                     </a>
                     <input type="text" name="" placeholder="Cari Buku"></form>

@@ -66,7 +66,7 @@ include 'koneksi.php'
                         <th>Penulis</th>
                         <th>Jenis Buku</th>
                         <th>Penerbit</th>
-                        <th>Tanggal Terbit</th>
+                        <th>Jumlah Halaman</th>
                         <th>Opsi</th>
                     </tr>
                         <?php
