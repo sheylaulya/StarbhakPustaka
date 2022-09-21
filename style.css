@@ -1393,7 +1393,7 @@ body {
 /* tambah siswa */
 
 
-#editsiswa nav {
+#tambahsiswa nav {
     width: 18vw;
     height: 95vh;
     background-color: var(--color3);
@@ -1970,6 +1970,303 @@ body {
     position: absolute;
     top: 83vh;
     left: 83vw;
+    color: var(--color4);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* teditbuku */
+
+
+#editbuku nav {
+    width: 18vw;
+    height: 95vh;
+    background-color: var(--color3);
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#editbuku .logo {
+    width: 18vw;
+    height: 5.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 16px;
+}
+
+#editbuku .logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#editbuku .logo img {
+    width: 35px;
+    padding-right: 10px;
+}
+
+#editbuku .logo h3 {
+    color: #EEF2E6;
+    font-size: 20px;
+}
+
+#editbuku .logo .garis {
+    width: 245px;
+    height: 1px;
+    background-color: #EEF2E6;
+    margin-top: -40px;
+    margin-left: 15px;
+    position: absolute;
+    top: 85px;
+}
+
+#editbuku .menubar {
+    height: 30vh;
+    width: 200px;
+    position: relative;
+    top: 10%;
+    left: 25px;
+}
+
+#editbuku .dashboard {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#editbuku .dashboard img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#editbuku .dashboard a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#editbuku .data-buku {
+    height: 48px;
+    width: 260px;
+    display: flex;
+    background-color: #EEF2E6;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#editbuku .data-buku img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#editbuku .data-buku a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1C6758;
+    font-weight: 600;
+}
+
+#editbuku .data-peminjam {
+    height: 48px;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -40px;
+}
+
+#editbuku .data-peminjam img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#editbuku .data-peminjam a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #EEF2E6;
+    font-weight: 600;
+}
+
+#editbuku .judul {
+    width: 60vw;
+    height: 100px;
+    position: absolute;
+    top: 5vh;
+    left: 22vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+#editbuku .judul img {
+    width: 50px;
+}
+
+#editbuku .judul h2 {
+    color: #1C6758;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+#editbuku .row-1 .akun {
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+    left: 90vw;
+    top: 11vh;
+    opacity: 60%;
+}
+
+#editbuku .id_buku {
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 20vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#editbuku label {
+    position: relative;
+    font-weight: 600;
+    color: #1C6758;
+}
+
+#editbuku input {
+    padding: 7px 10px;
+    width: 67vw;
+    border-radius: 10px;
+    border: none;
+}
+
+#editbuku .judul_buku {
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 32vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#editbuku .penulis {
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 44vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#editbuku .jenis_buku {
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 56vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#editbuku .penulis {
+    width: 72vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 44vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+#editbuku .penerbit {
+    width: 34vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 68vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+#editbuku .penerbit input {
+    padding: 7px 10px;
+    width: 29vw;
+    border-radius: 10px;
+    border: none;
+}
+
+#editbuku .jumlah_halaman {
+    width: 36vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 68vh;
+    left: 58vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+#editbuku .jumlah_halaman input {
+    padding: 7px 10px;
+    width: 29vw;
+    border-radius: 10px;
+    border: none;
+}
+
+#editbuku .enter {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(214, 205, 164);
+    position: absolute;
+    top: 83vh;
+    left: 87vw;
     color: var(--color4);
     font-size: 16px;
     letter-spacing: 1px;

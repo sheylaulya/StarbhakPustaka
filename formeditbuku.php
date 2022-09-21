@@ -1,3 +1,16 @@
+<?php
+include 'koneksi.php';
+
+
+$id_buku = $_GET['id_buku'];
+$sql = "SELECT*FROM data_buku WHERE id_buku = '$id_buku'";
+$query = mysqli_query($connect, $sql);
+$data = mysqli_fetch_assoc($query);
+
+if ( mysqli_num_rows($query) < 1){ 
+    die ("data tidak ditemukan...");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +26,7 @@
 </head>
 
 <body>
-    <div id="tambahbuku" class="container">
+    <div id="editbuku" class="container">
         <nav>
             <div class="logo">
                 <div class="logo-text">
@@ -45,33 +58,33 @@
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>
-        <form action="simpanbuku.php" method="post">
+        <form action="edit.php" method="post">
             <div class="id_buku">
                 <label>Id Buku <br>
-                    <input type="text" name="id_buku" required="required" placeholder="isi dengan id buku"></label>
+                    <input type="text" name="id_buku" value="<?php echo $data['id_buku']?>" required="required" placeholder="isi dengan id buku"></label>
             </div>
             <div class="judul_buku">
                 <label>Judul Buku <br>
-                    <input type="text" name="judul_buku" required="required"
+                    <input type="text" name="judul_buku" value="<?php echo $data['judul_buku']?>" required="required"
                         placeholder="isi dengan judul buku"></label>
             </div>
             <div class="penulis">
                 <label>Penulis <br>
-                    <input type="text" name="penulis" required="required" placeholder="isi dengan penulis"></label>
+                    <input type="text" name="penulis" value="<?php echo $data['penulis']?>" required="required" placeholder="isi dengan penulis"></label>
             </div>
             <div class="jenis_buku">
                 <label>Jenis Buku <br>
-                    <input type="text" name="jenis_buku" required="required"
+                    <input type="text" name="jenis_buku" value="<?php echo $data['jenis_buku']?>" required="required"
                         placeholder="isi dengan jenis buku"></label>
             </div>
             <div class="penerbit">
                 <label>Penerbit <br>
-                    <input type="text" name="penerbit" required="required"
+                    <input type="text" name="penerbit" value="<?php echo $data['penerbit']?>" required="required"
                         placeholder="isi dengan nama penerbit"></label>
             </div>
             <div class="jumlah_halaman">
                 <label>Jumlah Halaman <br>
-                    <input type="number" name="jumlah_halaman" required="required"
+                    <input type="number" name="jumlah_halaman" value="<?php echo $data['jumlah_halaman']?>" required="required"
                         placeholder="isi dengan jumlah"></label>
             </div>
             <input class="enter" type="submit" name="simpan" value="simpan">

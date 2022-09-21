@@ -84,7 +84,7 @@ include 'koneksi.php'
                             <td>
                             <div class='opsi'>
                             <a href='formeditbuku.php?id_buku=".$data ['id_buku']."'></a>
-                            <a href='hapus.php?id_buku=".$data ['id_buku']."'></a>
+                            <a href='hapusbuku.php?id_buku=".$data ['id_buku']."'></a>
                             </td>
                          </tr>
                       ";

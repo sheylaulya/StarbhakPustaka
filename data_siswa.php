@@ -88,7 +88,7 @@ include 'koneksi.php'
                             <td>
                             <div class='opsi'>
                             <a href='formeditsiswa.php?id_siswa=".$data ['id_siswa']."'></a>
-                            <a href='hapus.php?id_siswa=".$data ['id_siswa']."'></a>
+                            <a href='hapussiswa.php?id_siswa=".$data ['id_siswa']."'></a>
                             </td>
                          </tr>
                       ";
