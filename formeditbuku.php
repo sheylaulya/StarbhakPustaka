@@ -58,7 +58,7 @@ if ( mysqli_num_rows($query) < 1){
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>
-        <form action="edit.php" method="post">
+        <form action="editbuku.php" method="post">
             <div class="id_buku">
                 <label>Id Buku <br>
                     <input type="text" name="id_buku" value="<?php echo $data['id_buku']?>" required="required" placeholder="isi dengan id buku"></label>

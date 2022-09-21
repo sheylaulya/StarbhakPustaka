@@ -60,7 +60,7 @@ if ( mysqli_num_rows($query) < 1){
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>
-        <form action="edit.php" method="post">
+        <form action="editsiswa.php" method="post">
             <div class="id_siswa">
                 <label>Id Siswa<br>
                     <input type="text" name="id_siswa" value="<?php echo $data['id_siswa']?>" required="required"></label>
