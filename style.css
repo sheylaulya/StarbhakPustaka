@@ -814,9 +814,26 @@ body {
     background-color: rgba(214, 205, 164, 0.5);
     color: rgb(0, 0, 0, 0.6)
 }
-
-#databuku th:nth-child(2) {
-    width: 230px;
+#databuku th:first-child{
+    width: 80px;
+}
+#databuku th:nth-child(2){
+    width: 150px;
+}
+#databuku th:nth-child(3){
+    width: 120px;
+}
+#databuku th:nth-child(4){
+    width: 160px;
+}
+#databuku th:nth-child(5){
+    width: 100px;
+}
+#databuku th:nth-child(6){
+    width: 150px;
+}
+#databuku th:nth-child(7){
+    width: 110px;
 }
 
 /* tambahbuku */
@@ -1328,10 +1345,8 @@ body {
 
 #datasiswa table {
     border-collapse: collapse;
-    width: 142%;
     text-align: center;
     box-sizing: border-box;
-    flex-grow: 0;
 }
 
 #datasiswa .opsi a:first-child {
@@ -1387,9 +1402,34 @@ body {
     color: rgb(0, 0, 0, 0.6)
 }
 
-#datasiswa th:nth-child(4){
-    flex-basis: 200px;
+#datasiswa th:first-child{
+    width: 80px;
 }
+#datasiswa th:nth-child(2){
+    width: 120px;
+}
+#datasiswa th:nth-child(3){
+    width: 120px;
+}
+#datasiswa th:nth-child(4){
+    width: 150px;
+}
+#datasiswa th:nth-child(5){
+    width: 100px;
+}
+#datasiswa th:nth-child(6){
+    width: 100px;
+}
+#datasiswa th:nth-child(7){
+    width: 100px;
+}
+#datasiswa th:nth-child(8){
+    width: 100px;
+}
+#datasiswa th:nth-child(9){
+    width: 115px;
+}
+
 /* tambah siswa */
 
 
@@ -1663,7 +1703,7 @@ body {
     height: 70px;
     background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
-    top: 63vh;
+    top: 62vh;
     left: 57vw;
     display: flex;
     justify-content: center;
