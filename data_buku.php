@@ -80,7 +80,7 @@ include 'koneksi.php'
                             <td>$data[penulis]</td>
                             <td>$data[jenis_buku]</td>
                             <td>$data[penerbit]</td>
-                            <td>$data[tanggal_terbit]</td>
+                            <td>$data[jumlah_halaman]</td>
                             <td>
                             <div class='opsi'>
                             <a href='formeditbuku.php?id_buku=".$data ['id_buku']."'></a>

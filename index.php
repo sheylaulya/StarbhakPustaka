@@ -119,6 +119,49 @@ include 'koneksi.php'
                 </div>
             </div>
         </div>
+        
+        <div class="row-kanan">
+            <div class="row-kanan-1">
+                <h4>Riwayat Penambahan Data buku</h4>
+                <table>
+                    <tr>
+                        <th>Id Buku</th>
+                        <th>Judul Buku</th>
+                    </tr>
+                    <?php
+                      $sql = ("SELECT*FROM data_buku ORDER BY id_buku DESC LIMIT 5");
+                      $query = mysqli_query($connect, $sql);
+                      while($data = mysqli_fetch_array($query)){
+                        echo"
+                        <tr>
+                            <td>$data[id_buku]</td>
+                            <td>$data[judul_buku]</td>
+                              ";
+                            } 
+                                    ?>
+                </table>
+            </div>
+            <div class="row-kanan-2">
+                <h4>Riwayat Penambahan Data Siswa</h4>
+                <table>
+                    <tr>
+                        <th>Id Siswa</th>
+                        <th>Nama Siswa</th>
+                    </tr>
+                    <?php
+                      $sql = ("SELECT*FROM data_siswa ORDER BY id_siswa DESC LIMIT 6");
+                      $query = mysqli_query($connect, $sql);
+                      while($data = mysqli_fetch_array($query)){
+                        echo"
+                        <tr>
+                            <td>$data[id_siswa]</td>
+                            <td>$data[nama_siswa]</td>
+                              ";
+                            } 
+                                    ?>
+                </table>
+            </div>
+        </div>
 </body>
 
 </html>

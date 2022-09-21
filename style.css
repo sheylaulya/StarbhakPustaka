@@ -175,7 +175,7 @@ body {
 
 #index .searchbar {
     position: relative;
-    left: 27vw;
+    left: 24.5vw;
     top: 5px;
 }
 
@@ -200,7 +200,7 @@ body {
     width: 45px;
     height: 45px;
     position: absolute;
-    left: 70vw;
+    left: 72vw;
     opacity: 50%;
 }
 
@@ -449,6 +449,101 @@ body {
     color: #1C6758;
 }
 
+#index .row-kanan{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 84vh;
+    width: 27vw;
+    top: 7vw;
+    left: 70vw;
+    align-items: center;
+    gap: 25px;
+}
+#index .row-kanan-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 25vw;
+    height: 37vh;
+    background-color: rgba(61, 131, 97, 0.7);
+    border-radius: 20px;
+    justify-content: start;
+    align-items: center;
+    color: var(--color1);
+}
+#index .row-kanan-1 h4{
+    font-size: 16px;
+    color: #F6FBF4;
+}
+#index .row-kanan-1 table{
+    position: relative;
+    top: -15px;
+    width: 95%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#index .row-kanan-1 th {
+    color: #EEF2E6;
+    font-weight: 700;
+    padding: 5px;
+    background-color: none;
+    border-radius: 3px;
+    background-color:rgba(61, 131, 97, 0.7) ;
+}
+
+#index .row-kanan-1 td {
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    background-color: #EEF2E6;
+    border-radius: 2px;
+    color: #3D8361;
+}
+
+#index .row-kanan-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 25vw;
+    height: 37vh;
+    background-color: #F6FBF4;
+    border-radius: 20px;
+    justify-content: start;
+    align-items: center;
+    color: #1C6758;
+}
+#index .row-kanan-2 h4{
+    font-size: 16px;
+    color: #3D8361;
+}
+#index .row-kanan-2 table{
+    position: relative;
+    top: -15px;
+    width: 95%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#index .row-kanan-2 th {
+    color: #EEF2E6;
+    font-weight: 700;
+    padding: 5px;
+    background-color: none;
+    border-radius: 3px;
+    background-color:rgba(61, 131, 97, 0.7) ;
+}
+
+#index .row-kanan-2 td {
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    background-color: #EEF2E6;
+    border-radius: 2px;
+    color: #3D8361;
+}
+
+
+
 /* data_buku */
 
 #databuku nav {
@@ -661,7 +756,7 @@ body {
 
 #databuku table {
     border-collapse: collapse;
-    width: 120%;
+    width: 115%;
     text-align: center;
     box-sizing: border-box;
     flex-grow: 0;
@@ -988,7 +1083,7 @@ body {
     border: none;
 }
 
-#tambahbuku .tanggal_terbit {
+#tambahbuku .jumlah_halaman {
     width: 36vw;
     height: 70px;
     background-color: rgba(214, 205, 164, 0.5);
@@ -1001,7 +1096,7 @@ body {
     border-radius: 20px
 }
 
-#tambahbuku .tanggal_terbit input {
+#tambahbuku .jumlah_halaman input {
     padding: 7px 10px;
     width: 29vw;
     border-radius: 10px;
