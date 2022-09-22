@@ -50,7 +50,7 @@
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>
-        <form action="simpanbuku.php" method="post">
+        <form method="post">
             <div class="id_buku">
                 <label>Id Buku <br>
                     <input type="text" name="id_buku" required="required" placeholder="isi dengan id buku"></label>
@@ -77,11 +77,32 @@
             <div class="jumlah_halaman">
                 <label>Jumlah Halaman <br>
                     <input type="number" name="jumlah_halaman" required="required"
-                        placeholder="isi dengan jumlah"></label>
+                        placeholder="isi dengan jumlah halaman"></label>
             </div>
             <a class="batal" href="data_buku.php">Batal</a>
             <input class="enter" type="submit" name="simpan" value="simpan">
         </form>
 
     </div>
+    <?php
+include 'koneksi.php';
+
+if (isset($_POST['simpan'])) {
+    $id_buku = $_POST['id_buku'];
+    $judul_buku = $_POST['judul_buku'];
+    $penulis = $_POST['penulis'];
+    $jenis_buku = $_POST['jenis_buku'];
+    $penerbit = $_POST['penerbit'];
+    $jumlah_halaman = $_POST['jumlah_halaman'];
+
+    $sql = "INSERT INTO data_buku VALUES ('$id_buku', '$judul_buku', '$penulis', '$jenis_buku', '$penerbit', '$jumlah_halaman')";
+    $query = mysqli_query($connect, $sql);
+
+    if($query) {
+        header('Location: data_buku.php');
+    }else{
+        header('Location: simpan.php?status=gagal');
+    }
+}
+?>
 </body>

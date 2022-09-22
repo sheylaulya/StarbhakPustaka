@@ -149,7 +149,7 @@ body {
     font-weight: 600;
 }
 
-#index .copyright{
+#index .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -162,11 +162,11 @@ body {
     opacity: 70%;
 }
 
-#index .copyright img{
+#index .copyright img {
     width: 10px;
 }
 
-#index .copyright p{
+#index .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -472,7 +472,7 @@ body {
     color: #1C6758;
 }
 
-#index .row-kanan{
+#index .row-kanan {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -483,6 +483,7 @@ body {
     align-items: center;
     gap: 25px;
 }
+
 #index .row-kanan-1 {
     display: flex;
     flex-direction: column;
@@ -495,24 +496,27 @@ body {
     align-items: center;
     color: var(--color1);
 }
-#index .row-kanan-1 h4{
+
+#index .row-kanan-1 h4 {
     font-size: 16px;
     color: #F6FBF4;
 }
-#index .row-kanan-1 table{
+
+#index .row-kanan-1 table {
     position: relative;
     top: -15px;
     width: 95%;
     padding: 5px 10px;
     border-radius: 10px;
 }
+
 #index .row-kanan-1 th {
     color: #EEF2E6;
     font-weight: 700;
     padding: 5px;
     background-color: none;
     border-radius: 3px;
-    background-color:rgba(61, 131, 97, 0.7) ;
+    background-color: rgba(61, 131, 97, 0.7);
 }
 
 #index .row-kanan-1 td {
@@ -536,12 +540,14 @@ body {
     color: var(--color1);
     top: 0px;
 }
-#index .row-kanan-2 h5{
+
+#index .row-kanan-2 h5 {
     color: #1C6758;
     font-size: 16px;
     margin-bottom: 0;
 }
-#index .row-kanan-2 .chart{
+
+#index .row-kanan-2 .chart {
     width: 22.5vw;
 }
 
@@ -559,26 +565,29 @@ body {
     align-items: center;
     color: #1C6758;
 }
-#index .row-bawah h4{
+
+#index .row-bawah h4 {
     font-size: 16px;
     color: #EEF2E6;
     position: relative;
     right: 165px;
 }
-#index .row-bawah table{
+
+#index .row-bawah table {
     position: relative;
     top: -15px;
     width: 95%;
     padding: 5px 10px;
     border-radius: 10px;
 }
+
 #index .row-bawah th {
     color: #EEF2E6;
     font-weight: 700;
     padding: 5px;
     background-color: none;
     border-radius: 3px;
-    background-color:rgba(61, 131, 97, 0.7) ;
+    background-color: rgba(61, 131, 97, 0.7);
 }
 
 #index .row-bawah td {
@@ -726,7 +735,8 @@ body {
     color: #EEF2E6;
     font-weight: 600;
 }
-#databuku .copyright{
+
+#databuku .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -739,11 +749,11 @@ body {
     opacity: 70%;
 }
 
-#databuku .copyright img{
+#databuku .copyright img {
     width: 10px;
 }
 
-#databuku .copyright p{
+#databuku .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -801,7 +811,7 @@ body {
 #databuku .row-1box h3 {
     position: absolute;
     top: 8vh;
-    left:1.5vw;
+    left: 1.5vw;
     font-size: 30px;
     color: rgba(61, 131, 97, 0.9);
 }
@@ -884,25 +894,32 @@ body {
     background-color: rgba(214, 205, 164, 0.5);
     color: rgb(0, 0, 0, 0.6)
 }
-#databuku th:first-child{
+
+#databuku th:first-child {
     width: 80px;
 }
-#databuku th:nth-child(2){
+
+#databuku th:nth-child(2) {
     width: 150px;
 }
-#databuku th:nth-child(3){
+
+#databuku th:nth-child(3) {
     width: 120px;
 }
-#databuku th:nth-child(4){
+
+#databuku th:nth-child(4) {
     width: 160px;
 }
-#databuku th:nth-child(5){
+
+#databuku th:nth-child(5) {
     width: 100px;
 }
-#databuku th:nth-child(6){
+
+#databuku th:nth-child(6) {
     width: 150px;
 }
-#databuku th:nth-child(7){
+
+#databuku th:nth-child(7) {
     width: 110px;
 }
 
@@ -1040,7 +1057,8 @@ body {
     color: #EEF2E6;
     font-weight: 600;
 }
-#tambahbuku .copyright{
+
+#tambahbuku .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -1053,11 +1071,11 @@ body {
     opacity: 70%;
 }
 
-#tambahbuku .copyright img{
+#tambahbuku .copyright img {
     width: 10px;
 }
 
-#tambahbuku .copyright p{
+#tambahbuku .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -1218,7 +1236,7 @@ body {
     position: absolute;
     top: 83vh;
     left: 78.5vw;
-    color:  var(--color2);
+    color: var(--color2);
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -1257,6 +1275,7 @@ body {
     align-items: center;
     box-sizing: border-box;
 }
+
 
 #datasiswa .logo {
     width: 18vw;
@@ -1375,7 +1394,8 @@ body {
     color: var(--color3);
     font-weight: 600;
 }
-#datasiswa .copyright{
+
+#datasiswa .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -1388,11 +1408,11 @@ body {
     opacity: 70%;
 }
 
-#datasiswa .copyright img{
+#datasiswa .copyright img {
     width: 10px;
 }
 
-#datasiswa .copyright p{
+#datasiswa .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -1446,6 +1466,7 @@ body {
     border-radius: 20px;
     display: flex;
 }
+
 #datasiswa .row-1-text h3 {
     position: absolute;
     top: 8vh;
@@ -1533,31 +1554,39 @@ body {
     color: rgb(0, 0, 0, 0.6)
 }
 
-#datasiswa th:first-child{
+#datasiswa th:first-child {
     width: 80px;
 }
-#datasiswa th:nth-child(2){
+
+#datasiswa th:nth-child(2) {
     width: 120px;
 }
-#datasiswa th:nth-child(3){
+
+#datasiswa th:nth-child(3) {
     width: 120px;
 }
-#datasiswa th:nth-child(4){
+
+#datasiswa th:nth-child(4) {
     width: 150px;
 }
-#datasiswa th:nth-child(5){
+
+#datasiswa th:nth-child(5) {
     width: 100px;
 }
-#datasiswa th:nth-child(6){
+
+#datasiswa th:nth-child(6) {
     width: 100px;
 }
-#datasiswa th:nth-child(7){
+
+#datasiswa th:nth-child(7) {
     width: 100px;
 }
-#datasiswa th:nth-child(8){
+
+#datasiswa th:nth-child(8) {
     width: 100px;
 }
-#datasiswa th:nth-child(9){
+
+#datasiswa th:nth-child(9) {
     width: 115px;
 }
 
@@ -1695,7 +1724,8 @@ body {
     color: var(--color3);
     font-weight: 600;
 }
-#tambahsiswa .copyright{
+
+#tambahsiswa .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -1708,11 +1738,11 @@ body {
     opacity: 70%;
 }
 
-#tambahsiswa .copyright img{
+#tambahsiswa .copyright img {
     width: 10px;
 }
 
-#tambahsiswa .copyright p{
+#tambahsiswa .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -1761,8 +1791,9 @@ body {
     width: 25vw;
     border-radius: 10px;
     border: none;
-    
+
 }
+
 #tambahsiswa .id_siswa {
     width: 32vw;
     height: 70px;
@@ -1775,7 +1806,8 @@ body {
     align-items: center;
     border-radius: 20px;
 }
-#tambahsiswa .nama_siswa{
+
+#tambahsiswa .nama_siswa {
     width: 32vw;
     height: 70px;
     background-color: rgba(214, 205, 164, 0.5);
@@ -1820,24 +1852,27 @@ body {
     background-color: rgba(214, 205, 164, 0.5);
     position: absolute;
     top: 48vh;
-    left: 22vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px
-}
-#tambahsiswa .jenis_kelamin {
-    width: 32vw;
-    height: 70px;
-    background-color: rgba(214, 205, 164, 0.5);
-    position: absolute;
-    top: 48vh;
     left: 57vw;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px
 }
+
+
+#tambahsiswa .jenis_kelamin {
+    width: 32vw;
+    height: 70px;
+    background-color: rgba(214, 205, 164, 0.5);
+    position: absolute;
+    top: 48vh;
+    left: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
 #tambahsiswa .kelas {
     width: 32vw;
     height: 70px;
@@ -1871,7 +1906,7 @@ body {
     position: absolute;
     top: 83vh;
     left: 75vw;
-    color:  var(--color2);
+    color: var(--color2);
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -2029,7 +2064,8 @@ body {
     color: var(--color3);
     font-weight: 600;
 }
-#editsiswa .copyright{
+
+#editsiswa .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -2042,11 +2078,11 @@ body {
     opacity: 70%;
 }
 
-#editsiswa .copyright img{
+#editsiswa .copyright img {
     width: 10px;
 }
 
-#editsiswa .copyright p{
+#editsiswa .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -2096,8 +2132,9 @@ body {
     width: 25vw;
     border-radius: 10px;
     border: none;
-    
+
 }
+
 #editsiswa .id_siswa {
     width: 32vw;
     height: 70px;
@@ -2110,7 +2147,8 @@ body {
     align-items: center;
     border-radius: 20px;
 }
-#editsiswa .nama_siswa{
+
+#editsiswa .nama_siswa {
     width: 32vw;
     height: 70px;
     background-color: rgba(214, 205, 164, 0.5);
@@ -2161,6 +2199,7 @@ body {
     align-items: center;
     border-radius: 20px
 }
+
 #editsiswa .jenis_kelamin {
     width: 32vw;
     height: 70px;
@@ -2173,6 +2212,7 @@ body {
     align-items: center;
     border-radius: 20px
 }
+
 #editsiswa .kelas {
     width: 32vw;
     height: 70px;
@@ -2198,6 +2238,7 @@ body {
     align-items: center;
     border-radius: 20px
 }
+
 #editsiswa .batal {
     width: 100px;
     height: 40px;
@@ -2205,7 +2246,7 @@ body {
     position: absolute;
     top: 83vh;
     left: 75vw;
-    color:  var(--color2);
+    color: var(--color2);
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -2215,6 +2256,7 @@ body {
     align-items: center;
     text-decoration: none;
 }
+
 #editsiswa .enter {
     width: 100px;
     height: 40px;
@@ -2363,7 +2405,7 @@ body {
     font-weight: 600;
 }
 
-#editbuku .copyright{
+#editbuku .copyright {
     display: flex;
     width: 300px;
     height: 15px;
@@ -2376,11 +2418,11 @@ body {
     opacity: 70%;
 }
 
-#editbuku .copyright img{
+#editbuku .copyright img {
     width: 10px;
 }
 
-#editbuku .copyright p{
+#editbuku .copyright p {
     font-size: 10px;
     color: #EEF2E6;
 }
@@ -2533,6 +2575,7 @@ body {
     border-radius: 10px;
     border: none;
 }
+
 #editbuku .batal {
     width: 100px;
     height: 40px;
@@ -2540,7 +2583,7 @@ body {
     position: absolute;
     top: 83vh;
     left: 78.5vw;
-    color:  var(--color2);
+    color: var(--color2);
     font-size: 16px;
     letter-spacing: 1px;
     cursor: pointer;
