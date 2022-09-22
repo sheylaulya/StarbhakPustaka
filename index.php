@@ -14,6 +14,7 @@ include 'koneksi.php'
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
+
 </head>
 
 <body>
@@ -141,6 +142,12 @@ include 'koneksi.php'
                                     ?>
                 </table>
             </div>
+            <div class="row-kanan-2">
+                <h5>Genre Buku didalam Inventaris</h5>
+                <div class="chart">
+                    <canvas id="myChart"></canvas></div>
+
+            </div>
         </div>
         <div class="row-bawah">
             <h4>Riwayat Penambahan Data Siswa</h4>
@@ -168,6 +175,41 @@ include 'koneksi.php'
                                     ?>
             </table>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+        <script src="chart.js"></script>
+        <script>
+            const ctx = document.getElementById('myChart').getContext('2d');
+            const myChart = new Chart(ctx, {
+                type: 'polarArea',
+                data: {
+                    labels: ['Pelajaran', 'Fiksi', 'Non-Fiksi', 'Sejarah'],
+                    datasets: [{
+                        label: '# of Votes',
+                        data: [5, 4, 4, 3],
+                        backgroundColor: [
+                            '#76BA99',
+                            '#ADCF9F',
+                            '#CED89E',
+                            '#FFDCAE'
+                        ],
+                    }]
+                },
+                options: {
+                    scales: {
+                        r: {
+                            pointLabels: {
+                                display: true,
+                                centerPointLabels: true,
+                                font: {
+                                    size: 12
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+
     </div>
 </body>
 

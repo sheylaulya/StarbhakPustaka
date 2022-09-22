@@ -454,7 +454,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 84vh;
+    height: 60vh;
     width: 27vw;
     top: 7vw;
     left: 70vw;
@@ -502,6 +502,27 @@ body {
     color: #3D8361;
 }
 
+#index .row-kanan-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    background-color: #F6FBF4;
+    border-radius: 20px;
+    align-items: center;
+    color: var(--color1);
+    top: 0px;
+}
+#index .row-kanan-2 h5{
+    color: #1C6758;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#index .row-kanan-2 .chart{
+    width: 22.5vw;
+}
+
 #index .row-bawah {
     display: flex;
     flex-direction: column;
@@ -510,7 +531,7 @@ body {
     right: 33vw;
     width: 45vw;
     height: 26vh;
-    background-color: #F6FBF4;
+    background-color: rgba(61, 131, 97, 0.7);
     border-radius: 20px;
     justify-content: start;
     align-items: center;
@@ -518,7 +539,7 @@ body {
 }
 #index .row-bawah h4{
     font-size: 16px;
-    color: #3D8361;
+    color: #EEF2E6;
     position: relative;
     right: 165px;
 }
@@ -687,7 +708,7 @@ body {
 #databuku .row-1head {
     position: relative;
     top: 5vh;
-    left: 5vw;
+    left: 4vw;
     justify-content: start;
 }
 
@@ -736,7 +757,7 @@ body {
 #databuku .row-1box h3 {
     position: absolute;
     top: 8vh;
-    left: 2vw;
+    left:1.5vw;
     font-size: 30px;
     color: rgba(61, 131, 97, 0.9);
 }
@@ -1282,6 +1303,7 @@ body {
 
 #datasiswa .searchbar {
     position: absolute;
+    left: -2vw;
 }
 
 #datasiswa .searchbar img {
@@ -1294,7 +1316,7 @@ body {
 }
 
 #datasiswa .searchbar input {
-    padding: 10px 400px;
+    padding: 10px 420px;
     position: absolute;
     border-radius: 20px;
     border: none;
