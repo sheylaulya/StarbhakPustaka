@@ -159,6 +159,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #index .copyright img{
@@ -735,6 +736,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #databuku .copyright img{
@@ -1048,6 +1050,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #tambahbuku .copyright img{
@@ -1208,6 +1211,24 @@ body {
     border: none;
 }
 
+#tambahbuku .batal {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(61, 131, 97, 0.8);
+    position: absolute;
+    top: 83vh;
+    left: 78.5vw;
+    color:  var(--color2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 #tambahbuku .enter {
     width: 100px;
     height: 40px;
@@ -1364,6 +1385,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #datasiswa .copyright img{
@@ -1683,6 +1705,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #tambahsiswa .copyright img{
@@ -1840,6 +1863,25 @@ body {
     align-items: center;
     border-radius: 20px
 }
+
+#tambahsiswa .batal {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(61, 131, 97, 0.8);
+    position: absolute;
+    top: 83vh;
+    left: 75vw;
+    color:  var(--color2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 #tambahsiswa .enter {
     width: 100px;
     height: 40px;
@@ -1997,6 +2039,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #editsiswa .copyright img{
@@ -2154,6 +2197,23 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px
+}
+#editsiswa .batal {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(61, 131, 97, 0.8);
+    position: absolute;
+    top: 83vh;
+    left: 75vw;
+    color:  var(--color2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 #editsiswa .enter {
     width: 100px;
@@ -2313,6 +2373,7 @@ body {
     top: 55vh;
     gap: 5px;
     letter-spacing: 2px;
+    opacity: 70%;
 }
 
 #editbuku .copyright img{
@@ -2472,6 +2533,24 @@ body {
     border-radius: 10px;
     border: none;
 }
+#editbuku .batal {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(61, 131, 97, 0.8);
+    position: absolute;
+    top: 83vh;
+    left: 78.5vw;
+    color:  var(--color2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 
 #editbuku .enter {
     width: 100px;

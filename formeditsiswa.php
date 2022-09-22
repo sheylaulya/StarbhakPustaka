@@ -101,6 +101,7 @@ if ( mysqli_num_rows($query) < 1){
                     <input type="text" name="jurusan"  value="<?php echo $data['jurusan']?>" required="required"
                         placeholder="isi dengan jurusan siswa"></label>
             </div>
+            <a class="batal" href="data_siswa.php">Batal</a>
             <input class="enter" type="submit" name="simpan" value="simpan">
         </form>
 

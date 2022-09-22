@@ -92,6 +92,7 @@ if ( mysqli_num_rows($query) < 1){
                     <input type="number" name="jumlah_halaman" value="<?php echo $data['jumlah_halaman']?>" required="required"
                         placeholder="isi dengan jumlah"></label>
             </div>
+            <a class="batal"href="data_buku.php">batal</a>
             <input class="enter" type="submit" name="simpan" value="simpan">
         </form>
 

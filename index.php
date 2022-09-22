@@ -135,7 +135,7 @@ include 'koneksi.php'
                         <th>Judul Buku</th>
                     </tr>
                     <?php
-                      $sql = ("SELECT*FROM data_buku ORDER BY id_buku DESC LIMIT 5");
+                      $sql = ("SELECT*FROM data_buku ORDER BY id_buku DESC LIMIT 4");
                       $query = mysqli_query($connect, $sql);
                       while($data = mysqli_fetch_array($query)){
                         echo"
@@ -165,7 +165,7 @@ include 'koneksi.php'
                     <th>Jurusan</th>
                 </tr>
                 <?php
-                      $sql = ("SELECT*FROM data_siswa ORDER BY id_siswa DESC LIMIT 6");
+                      $sql = ("SELECT*FROM data_siswa ORDER BY id_siswa DESC LIMIT 3");
                       $query = mysqli_query($connect, $sql);
                       while($data = mysqli_fetch_array($query)){
                         echo"
