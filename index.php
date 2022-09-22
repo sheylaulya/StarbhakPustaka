@@ -119,7 +119,7 @@ include 'koneksi.php'
                 </div>
             </div>
         </div>
-        
+
         <div class="row-kanan">
             <div class="row-kanan-1">
                 <h4>Riwayat Penambahan Data buku</h4>
@@ -141,14 +141,18 @@ include 'koneksi.php'
                                     ?>
                 </table>
             </div>
-            <div class="row-kanan-2">
-                <h4>Riwayat Penambahan Data Siswa</h4>
-                <table>
-                    <tr>
-                        <th>Id Siswa</th>
-                        <th>Nama Siswa</th>
-                    </tr>
-                    <?php
+        </div>
+        <div class="row-bawah">
+            <h4>Riwayat Penambahan Data Siswa</h4>
+            <table>
+                <tr>
+                    <th>Id Siswa</th>
+                    <th>Nama Siswa</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Kelas</th>
+                    <th>Jurusan</th>
+                </tr>
+                <?php
                       $sql = ("SELECT*FROM data_siswa ORDER BY id_siswa DESC LIMIT 6");
                       $query = mysqli_query($connect, $sql);
                       while($data = mysqli_fetch_array($query)){
@@ -156,12 +160,15 @@ include 'koneksi.php'
                         <tr>
                             <td>$data[id_siswa]</td>
                             <td>$data[nama_siswa]</td>
+                            <td>$data[jenis_kelamin]</td>
+                            <td>$data[kelas]</td>
+                            <td>$data[jurusan]</td>
                               ";
                             } 
                                     ?>
-                </table>
-            </div>
+            </table>
         </div>
+    </div>
 </body>
 
 </html>

@@ -279,6 +279,7 @@ body {
     display: flex;
     align-items: center;
     gap: 25px;
+    margin-top: -10px;
 }
 
 #index .row-3-text {
@@ -292,7 +293,7 @@ body {
 #index .row-3 a {
     font-size: 10px;
     position: absolute;
-    top: 6vh;
+    top: 4vh;
     left: 39.5vw;
     width: 100px;
     color: rgba(61, 131, 97, 0.9);
@@ -465,7 +466,7 @@ body {
     flex-direction: column;
     position: relative;
     width: 25vw;
-    height: 37vh;
+    height: 40vh;
     background-color: rgba(61, 131, 97, 0.7);
     border-radius: 20px;
     justify-content: start;
@@ -501,30 +502,34 @@ body {
     color: #3D8361;
 }
 
-#index .row-kanan-2 {
+#index .row-bawah {
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 25vw;
-    height: 37vh;
+    position: absolute;
+    top: 71.5vh;
+    right: 33vw;
+    width: 45vw;
+    height: 26vh;
     background-color: #F6FBF4;
     border-radius: 20px;
     justify-content: start;
     align-items: center;
     color: #1C6758;
 }
-#index .row-kanan-2 h4{
+#index .row-bawah h4{
     font-size: 16px;
     color: #3D8361;
+    position: relative;
+    right: 165px;
 }
-#index .row-kanan-2 table{
+#index .row-bawah table{
     position: relative;
     top: -15px;
     width: 95%;
     padding: 5px 10px;
     border-radius: 10px;
 }
-#index .row-kanan-2 th {
+#index .row-bawah th {
     color: #EEF2E6;
     font-weight: 700;
     padding: 5px;
@@ -533,7 +538,7 @@ body {
     background-color:rgba(61, 131, 97, 0.7) ;
 }
 
-#index .row-kanan-2 td {
+#index .row-bawah td {
     font-weight: 400;
     padding: 5px;
     text-align: center;
