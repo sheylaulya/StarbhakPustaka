@@ -18,7 +18,7 @@ body {
 }
 
 #index nav {
-    width: 20vw;
+    width: 18vw;
     height: 95vh;
     background-color: var(--color3);
     position: relative;
@@ -147,6 +147,27 @@ body {
     text-decoration: none;
     color: #EEF2E6;
     font-weight: 600;
+}
+
+#index .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#index .copyright img{
+    width: 10px;
+}
+
+#index .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
 }
 
 #index .row-1 {
@@ -570,6 +591,7 @@ body {
 
 
 
+
 /* data_buku */
 
 #databuku nav {
@@ -702,6 +724,26 @@ body {
     text-decoration: none;
     color: #EEF2E6;
     font-weight: 600;
+}
+#databuku .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#databuku .copyright img{
+    width: 10px;
+}
+
+#databuku .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
 }
 
 
@@ -995,6 +1037,26 @@ body {
     text-decoration: none;
     color: #EEF2E6;
     font-weight: 600;
+}
+#tambahbuku .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#tambahbuku .copyright img{
+    width: 10px;
+}
+
+#tambahbuku .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
 }
 
 #tambahbuku .judul {
@@ -1291,6 +1353,26 @@ body {
     text-decoration: none;
     color: var(--color3);
     font-weight: 600;
+}
+#datasiswa .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#datasiswa .copyright img{
+    width: 10px;
+}
+
+#datasiswa .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
 }
 
 
@@ -1591,6 +1673,27 @@ body {
     color: var(--color3);
     font-weight: 600;
 }
+#tambahsiswa .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#tambahsiswa .copyright img{
+    width: 10px;
+}
+
+#tambahsiswa .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
+}
+
 
 
 #tambahsiswa .judul {
@@ -1884,6 +1987,28 @@ body {
     color: var(--color3);
     font-weight: 600;
 }
+#editsiswa .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#editsiswa .copyright img{
+    width: 10px;
+}
+
+#editsiswa .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
+}
+
+
 
 
 #editsiswa .judul {
@@ -2176,6 +2301,27 @@ body {
     text-decoration: none;
     color: #EEF2E6;
     font-weight: 600;
+}
+
+#editbuku .copyright{
+    display: flex;
+    width: 300px;
+    height: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 55vh;
+    gap: 5px;
+    letter-spacing: 2px;
+}
+
+#editbuku .copyright img{
+    width: 10px;
+}
+
+#editbuku .copyright p{
+    font-size: 10px;
+    color: #EEF2E6;
 }
 
 #editbuku .judul {

@@ -50,11 +50,16 @@ if ( mysqli_num_rows($query) < 1){
                     <a href="data_siswa.php">Data Siswa</a>
                 </div>
             </div>
+            <div class="copyright">
+                <p>copyright </p>
+                <img src="asset/copyright (1).png" alt="copyright">
+                <p> Sheyla Aulya</p>
+            </div>
         </nav>
         <div class="row-1">
             <div class="judul">
-                <img src="asset/tambah.png" alt="tambah">
-                <h2>Tambah Buku</h2>
+                <img src="asset/edit (1).png" alt="tambah">
+                <h2>Ubah Data Buku</h2>
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>

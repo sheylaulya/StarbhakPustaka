@@ -42,6 +42,11 @@ include 'koneksi.php'
                     <a href="data_siswa.php">Data Siswa</a>
                 </div>
             </div>
+            <div class="copyright">
+                <p>copyright </p>
+                <img src="asset/copyright (1).png" alt="copyright">
+                <p> Sheyla Aulya</p>
+            </div>
         </nav>
         <div class="row-1">
             <div class="welcome">
