@@ -59,7 +59,7 @@ include 'koneksi.php'
                 <img class="akun" src="asset/account.png" alt="akun">
                 <div class="row-1-text">
                     <h3>Data Siswa</h3>
-                    <a href="tambah_siswa.html">Tambah Siswa</a>
+                    <a href="tambah_siswa.php">Tambah Siswa</a>
                 </div>
             </div>
         </div>
