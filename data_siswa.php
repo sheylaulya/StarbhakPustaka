@@ -47,9 +47,9 @@ include 'koneksi.php'
             <div class="row-1head">
                 <div class="searchbar">
                     <a href="data_siswa.php">
-                        <img src="asset/search.png" alt="search">
+                        <img src="asset/search.png" alt="search"> 
                     </a>
-                    <input type="text" name="" placeholder="Cari Buku"></form>
+                   <input type="search" name="" placeholder="Cari Siswa">
                 </div>
                 <img class="akun" src="asset/account.png" alt="akun">
                 <div class="row-1-text">

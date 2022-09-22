@@ -175,7 +175,7 @@ body {
 
 #index .searchbar {
     position: relative;
-    left: 24.5vw;
+    left: 26vw;
     top: 5px;
 }
 
@@ -189,7 +189,7 @@ body {
 }
 
 #index .searchbar input {
-    padding: 10px 45px;
+    padding: 10px 70px;
     position: absolute;
     border-radius: 10px;
     border: none;

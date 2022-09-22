@@ -54,7 +54,7 @@ include 'koneksi.php'
                     <a href="data_buku.php">
                         <img src="asset/search.png" alt="search">
                     </a>
-                    <input type="text" name="" placeholder="Cari Buku"></form>
+                    <input type="search" name="" placeholder="Cari Siswa">
                 </div>
                 <img class="akun" src="asset/account.png" alt="akun">
             </div>

@@ -51,7 +51,7 @@ include 'koneksi.php'
                 <a href="tampilan.html">
                     <img src="asset/search.png" alt="search">
                 </a>
-                <input type="text" name="" placeholder="Cari Dashboard"></form>
+                <input type="search" name="" placeholder="Cari Dashboard"></form>
             </div>
             <img class="akun" src="asset/account.png" alt="akun">
         </div>
@@ -85,7 +85,7 @@ include 'koneksi.php'
         </div>
         <div class="row-3">
             <div class="row-3-text">
-                <h4>Buku - Buku didalam Inventoris</h4>
+                <h4>Buku - Buku didalam Inventaris</h4>
                 <a href="data_buku.php">selengkapnya -></a>
             </div>
             <div class="buku">
@@ -107,7 +107,7 @@ include 'koneksi.php'
                     <img src="asset/sapiens.jpg" alt="buku sapiens">
                     <div class="buku3-text">
                         <h5>Sapiens</h5>
-                        <p>Leila S. Chudori</p>
+                        <p>Yuval Noah Harari</p>
                     </div>
                 </div>
                 <div class="buku4">
